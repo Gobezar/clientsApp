@@ -1,3 +1,4 @@
+@import "../../../styles/main.scss";
 .currentClientContainer {
   width: 744px;
   height: 110px;
@@ -22,6 +23,29 @@
     }
     .buttonWrapper {
       margin-left: auto;
+    }
+    .popupWrapper {
+      position: absolute;
+      display: flex;
+      top: 100px;
+      margin-top: 15px;
+      background: #fff;
+      box-shadow: 0px 1px 4px 0px rgba(51, 51, 51, 0.3);
+      overflow: hidden;
+      width: 230px;
+      height: 88px;
+      text-align: left;
+      border-radius: 5px;
+
+      li {
+        padding: 15px 20px 15px 20px;
+        cursor: pointer;
+        width: 230px;
+        height: 50%;
+        &:hover {
+          background: $gray-color;
+        }
+      }
     }
   }
   .chooseClientWrapper {
