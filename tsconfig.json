@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "nodenext",
-    "jsx": "react",
-    "outDir": "./dist",
+    "outDir": "./dist/",
+    "sourceMap": true,
     "strict": true,
-    "esModuleInterop": true,
-    "lib": ["ES6", "DOM"],
-    "types": ["node", "react", "react-dom"],
-    "moduleResolution": "nodenext"
-  }
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "react"
+  },
+  "include": ["./src/**/*"]
 }
