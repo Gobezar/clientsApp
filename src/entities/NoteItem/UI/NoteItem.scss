@@ -1,0 +1,20 @@
+@import "../../../styles/main.scss";
+.noteItemContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  height: auto;
+  text-align: justify;
+  margin-bottom: 20px;
+  .noteItemText {
+    margin-right: 2%;
+    span {
+      color: $dark_gray;
+    }
+  }
+  img {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px solid $gray-color;
+  }
+}

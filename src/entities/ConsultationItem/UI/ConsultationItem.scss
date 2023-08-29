@@ -1,0 +1,17 @@
+@import "../../../styles/main.scss";
+.consultationItemContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: $dark_gray;
+  border-radius: 5px;
+  border: 1px solid $gray-color;
+  .consultationItemImage {
+    margin-right: 10px;
+  }
+  .consultationItemText {
+    margin-bottom: 14px;
+    color: #000;
+  }
+}

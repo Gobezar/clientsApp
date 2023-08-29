@@ -1,0 +1,60 @@
+@import "../../../styles/main.scss";
+
+.checkListContainer {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 366px;
+  padding: 0px 10px;
+
+  .closeActions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .openActions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .rightContent,
+    .leftContent {
+      display: flex;
+    }
+    .rightContent div {
+      margin-left: 10px;
+    }
+    .leftContent div {
+      margin-right: 10px;
+    }
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .quantity {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 28px;
+    height: 18px;
+    border-radius: 10px;
+    p {
+      color: #fff;
+      padding: 2px 4px;
+      font-size: 12px;
+    }
+  }
+  .quantityClients {
+    background-color: $dark_gray;
+  }
+  .quantitySelectedClients {
+    background-color: $blue_color;
+  }
+  .checkListButton {
+    border: none;
+    cursor: pointer;
+    color: $dark_gray;
+    font-size: 14px;
+  }
+}

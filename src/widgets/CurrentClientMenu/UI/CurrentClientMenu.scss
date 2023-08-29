@@ -1,0 +1,35 @@
+@import "../../../styles/main.scss";
+
+.currentClientMenuContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 10px;
+
+  .currentClientMenuButton {
+    border: none;
+    cursor: pointer;
+    color: $dark_gray;
+    font-size: 14px;
+    padding: 0px 20px;
+    margin: 13px 0px;
+    background-color: transparent;
+    border-right: 1px solid $dark_gray;
+
+    &:first-child {
+      padding-left: 0px;
+    }
+    &:last-child {
+      padding-right: 0px;
+      border-right: 0px;
+    }
+  }
+  .active {
+    color: $dark_blue;
+  }
+  .recomendationButtonWrapper {
+    display: flex;
+    div {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.root {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 34px;
+  height: 34px;
+  border: none;
+  cursor: pointer;
+}
+.root_theme_add {
+  background-image: url("../../../images/addGreyButton.png");
+  &:hover {
+    background-image: url("../../../images/addButton.png");
+  }
+}
+.root_theme_sortAsc {
+  background-image: url("../../../images/sortGreyButton.png");
+  &:hover {
+    background-image: url("../../../images/sortButton.png");
+  }
+}
+.root_theme_sortDesc {
+  background-image: url("../../../images/sortGreyButton.png");
+  transform: rotate(180deg);
+  &:hover {
+    background-image: url("../../../images/sortButton.png");
+    transform: rotate(180deg);
+  }
+}
+.root_theme_exit {
+  background-image: url("../../../images/exitGreyButton.png");
+  &:hover {
+    background-image: url("../../../images/exitButton.png");
+  }
+}
+.root_theme_additionally {
+  background-image: url("../../../images/additionallyButtun.png");
+  &:hover {
+    background-image: url("../../../images/additionallyGreyButton.png");
+  }
+}
+.root_theme_search {
+  background-image: url("../../../images/searchGreyButton.png");
+  &:hover {
+    background-image: url("../../../images/searchButton.png");
+  }
+}
+
+.root_theme_additionallyTransparent {
+  background-image: url("../../../images/additionallyTransparentButton.png");
+}
+
+.root_theme_addTransparentButton {
+  background-image: url("../../../images/addTransparentButton.png");
+}

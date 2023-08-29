@@ -1,0 +1,32 @@
+.currentClientContainer {
+  width: 744px;
+  height: 110px;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px 0px rgba(51, 51, 51, 0.3);
+
+  .currentClientData {
+    display: flex;
+    // justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    .photoWrapper {
+      margin-right: 14px;
+    }
+    img {
+      height: 90px;
+      width: 90px;
+      border-radius: 50%;
+    }
+    .currentClientAge {
+      font-size: 12px;
+      margin-top: 6px;
+    }
+    .buttonWrapper {
+      margin-left: auto;
+    }
+  }
+  .chooseClientWrapper {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+  }
+}

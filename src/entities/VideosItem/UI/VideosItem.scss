@@ -1,0 +1,28 @@
+@import "../../../styles/main.scss";
+
+.videosItemContainer {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid $gray-color;
+  color: $dark_gray;
+  .videosNameAuthorDate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10px;
+  }
+  span {
+    color: #000;
+  }
+
+  .videosItemName {
+    display: flex;
+    align-items: stretch;
+  }
+  .AuthorAndDateWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

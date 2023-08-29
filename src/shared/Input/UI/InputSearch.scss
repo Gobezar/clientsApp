@@ -1,0 +1,32 @@
+@import "../../../styles/main.scss";
+
+.inputSearchContainer {
+  position: relative;
+  .inputSearchWrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    .inputSearch {
+      width: 210px;
+      height: 40px;
+      border-radius: 90px;
+      border: 1px solid $gray-color;
+      padding: 0px 35px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+    .searchIconWrapper {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 12px 9px 7px 9px;
+    }
+    .exitButtonWrapper {
+      display: flex;
+      align-items: center;
+      margin: 0px 10px;
+    }
+  }
+}

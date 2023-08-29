@@ -1,0 +1,39 @@
+$gray-color: rgba(205, 205, 205, 1);
+$light_gray_color: rgba(241, 242, 244, 1);
+$dark_gray: rgba(97, 111, 130, 1);
+$blue_color: rgb(3, 155, 229);
+$dark_blue: rgba(65, 152, 197, 1);
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(241, 242, 243, 1);
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.appInformation {
+  display: flex;
+  justify-content: center;
+  padding: 0 15% 0 15%;
+  margin: 30px 0px 30px 0px;
+  .clientInformation {
+    margin-left: 30px;
+    width: 744px;
+    height: 744px;
+  }
+}
